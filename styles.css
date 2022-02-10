@@ -1,0 +1,9 @@
+/* 001*/
+body{ background-color: rgb(0, 255, 64);
+}
+h2{ color: rgb(255, 0, 255);}
+[href=""]{
+    font-weight: 700;
+    text-decoration: none;
+    color: gold;
+}
