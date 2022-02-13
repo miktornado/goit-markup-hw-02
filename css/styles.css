@@ -4,24 +4,18 @@ font-family: 'Roboto', sans-serif;*/
 #2F303A*/
 :root{
     /*цвет фона*/
-    --header-color:#FFFFFF;
-    --body-bg-color:#E5E5E5;
-    --black-bg-color:#2F303A;
-    /*главные шрифты*/
-    --main-font: "Raleway", sans-serif;
-    --secodary-font: "Roboto", sans-serif;
-    /*цвер шрифта*/
-    --first-txt: #FFFFFF;
-    --secondery-txt: #212121;
+    --first-site-color:#757575;
+    --title-site-color:#212121;
+    --basic-site-color:#2F303A;
+    --accent-site-color:#2196F3;
 }
 
  body{
-    font-family: var(--main-font);
-font-weight: 400;
-font-size: 16px;
-line-height: 1.87;
-letter-spacing: 0.03em;
-color: var(--secondery-txt);
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+background-color: #FFFFFF;
+color: var(--first-site-color);
  }
 .list{
     list-style: none;
@@ -29,15 +23,16 @@ color: var(--secondery-txt);
 .link{
     text-decoration: none;
 }
- .header{
+ .header {
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
-color: var(--header-color);
+color: var(--title-site-color);
  }
- .link{
-    font-family: var(--main-font);
+ /*logo*/
+ .logo{
+    font-family: 'Raleway', sans-serif;
 
 font-weight: 700;
 font-size: 26px;
@@ -45,21 +40,204 @@ line-height: 1.19;
 
 letter-spacing: 0.03em;
 
-color: #2196F3;
+color: #000000;
 }
-.logo-blu{ color: #2196F3;
+.logo-blu,
+.footer-logo-blu{
+    color: var(--accent-site-color);
 }
 /*навигацыя*/
 
 
-.nav-list .link{
-    font-family: var(--secodary-font);
-font-weight: 500;
-font-size: 14px;
-line-height: 1.14;
-letter-spacing: 0.02em;
-color: #212121;
+.site-nav .link:hover,
+.site-nav .link:focus {
+    color: var(--accent-site-color);
+    }
+.site-nav .corrent{
+    color: var(--accent-site-color);
 }
-.nav-list:hover,
-.nav-list:focus{ color: #2196F3;
+.site-nuv .link{
+color: var(--title-site-color);
+}   
+.contacts .link:hover,
+.contacts .link:focus{
+    color: var(--accent-site-color);
+}
+.contacts .link{
+    color: var(--first-site-color);
+}
+.site-nuv .corrent{
+    color: var(--accent-site-color);
+}
+.site-nuv  .link{
+    color: var(--title-site-color);
+}
+.contacts  .link:hover,
+.contacts .link:focus{
+    color: var(--accent-site-color);
+}
+.contacts .link{
+    color: var(--first-site-color);
+}
+.site-nav .corrent{
+    color: var(--accent-site-color);
+}
+/*герой*/
+.hero{
+    background-color: var(--basic-site-color);
+    text-align: center;
+}
+.hero-title{
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    background-color: var(--basic-site-color);
+    color: #FFFFFF;
+}
+.button{
+    cursor: pointer;
+    font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  background-color: var(--accent-site-color);
+  color: #ffffff;
+}
+.button:hover{
+    background-color: #188ce8;
+}
+/*особенности*/
+.feature .list-title{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+  
+    color: var(--title-site-color)
+}
+.text{
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+  
+    color: var(--first-site-color)  
+}
+/*шоурум*/
+.showroom-title{
+    font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 1.17;
+text-align: center;
+letter-spacing: 0.03em;
+
+color: var(--title-site-color);
+
+}
+/*команда*/
+.name{
+    font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.19;
+text-align: center;
+letter-spacing: 0.03em;
+
+color: var(--title-site-color)
+}
+.position{
+    font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 1.19;
+text-align: center;
+letter-spacing: 0.03em;
+
+color: var(--first-site-color)
+}
+/*портфолио*/
+.buttons{
+    font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.62;
+
+text-align: center;
+letter-spacing: 0.03em;
+background: #F5F4FA;
+color: var(--title-site-color);
+}
+.buttons:hover,
+.buttons:focus{
+    color: #ffffff;
+    background-color: var(--accent-site-color)   
+}
+.list-title{
+    font-family: 'Roboto', sans-serif;
+font-weight: 700;
+font-size: 18px;
+line-height: 36px;
+letter-spacing: 0.06em;
+background-color: #FFFFFF;
+
+color: var(--title-site-color);
+}
+.category{
+    font-family: 'Roboto', sans-serif;
+font-size: 16px;
+line-height: 1.87;
+/* identical to box height, or 187% */
+
+letter-spacing: 0.03em;
+background: #FFFFFF;
+color: var(--first-site-color);
+}
+
+
+/*подвал*/
+.footer{
+    background: var(--basic-site-color);
+}
+.footer .link{
+    font-family: 'Roboto', sans-serif;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+
+color: #FFFFFF
+}
+.footer .links{
+    font-family: 'Roboto', sans-serif;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+color: rgba(255, 255, 255, 0.6);
+}
+.footer .footer-logo{
+    font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 1.19;
+
+letter-spacing: 0.03em;
+}
+.footer-list .link:focus,
+.footer-list .link:hover{
+    color: var(--accent-site-color);
+}
+.footer-list .link:focus,
+.footer-list .links:hover{
+    color: var(--accent-site-color);
 }
