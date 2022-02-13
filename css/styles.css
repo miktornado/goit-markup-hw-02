@@ -34,7 +34,7 @@ color: var(--secondery-txt);
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
-background: var(--header-color);
+color: var(--header-color);
  }
  .link{
     font-family: var(--main-font);
@@ -51,15 +51,14 @@ color: #2196F3;
 }
 /*навигацыя*/
 
-.nav-list .corrent{
+
+.nav-list .link{
     font-family: var(--secodary-font);
 font-weight: 500;
 font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.02em;
-
 color: #212121;
-
 }
 .nav-list:hover,
 .nav-list:focus{ color: #2196F3;
