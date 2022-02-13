@@ -1,0 +1,66 @@
+/*font-family: 'Raleway', sans-serif;
+font-family: 'Roboto', sans-serif;*/
+/*#E5E5E5;
+#2F303A*/
+:root{
+    /*цвет фона*/
+    --header-color:#FFFFFF;
+    --body-bg-color:#E5E5E5;
+    --black-bg-color:#2F303A;
+    /*главные шрифты*/
+    --main-font: "Raleway", sans-serif;
+    --secodary-font: "Roboto", sans-serif;
+    /*цвер шрифта*/
+    --first-txt: #FFFFFF;
+    --secondery-txt: #212121;
+}
+
+ body{
+    font-family: var(--main-font);
+font-weight: 400;
+font-size: 16px;
+line-height: 1.87;
+letter-spacing: 0.03em;
+color: var(--secondery-txt);
+ }
+.list{
+    list-style: none;
+}
+.link{
+    text-decoration: none;
+}
+ .header{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+background: var(--header-color);
+ }
+ .link{
+    font-family: var(--main-font);
+
+font-weight: 700;
+font-size: 26px;
+line-height: 1.19;
+
+letter-spacing: 0.03em;
+
+color: #2196F3;
+}
+.logo-blu{ color: #2196F3;
+}
+/*навигацыя*/
+
+.nav-list .corrent{
+    font-family: var(--secodary-font);
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+
+color: #212121;
+
+}
+.nav-list:hover,
+.nav-list:focus{ color: #2196F3;
+}
