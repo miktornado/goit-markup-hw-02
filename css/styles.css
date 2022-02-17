@@ -46,27 +46,27 @@ color: #000000;
 .footer-logo-blu{
     color: var(--accent-site-color);
 }
-/*навигацыя*/
+/*навигация*/
 .link.current{
     color: var(--accent-site-color);
-    cursor: vector;
+    cursor: pointer;
 }
 .site-nav .link:hover,
 .site-nav .link:focus {
     color: var(--accent-site-color);
     }
-.site-nav .corrent{color: var(--accent-site-color);
+.site-nav .current{color: var(--accent-site-color);
 }
-.site-nuv .link{color: #212121;
+.link{color: #212121;
 }   
-.contact .link:hover,
+.contacts .link:hover,
 .contacts .link:focus{
     color: var(--accent-site-color);
 }
 .contacts .link{
     color: var(--first-site-color);
 }
-.site-nuv .corrent{
+.contacts .current{
     color: var(--accent-site-color);
 }
 
@@ -86,7 +86,7 @@ color: #000000;
     color: #FFFFFF;
 }
 .button{
-    cursor: vector;
+    cursor: pointer;
     font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
@@ -97,6 +97,7 @@ color: #000000;
   background-color: var(--accent-site-color);
   color: #ffffff;
 }
+.buttons:focus,
 .button:hover{
     background-color: #188ce8;
 }
@@ -164,20 +165,19 @@ color: var(--first-site-color)
 font-weight: 500;
 font-size: 16px;
 line-height: 1.62;
-
 text-align: center;
 letter-spacing: 0.03em;
 background: #F5F4FA;
 color: var(--title-site-color);
+cursor: pointer;
 }
 .buttons:hover,
 .buttons:focus{
     color: #FFFFFF;
     background-color: var(--accent-site-color);
-    cursor: vector;    
+     
 }
 .buttons .corrent{
-    cursor: vector;
     color: var(--accent-site-color);
 }
 .list-title{
@@ -209,7 +209,6 @@ color: var(--first-site-color);
 font-size: 14px;
 line-height: 1.71;
 letter-spacing: 0.03em;
-
 color: #FFFFFF
 }
 .footer-list{
